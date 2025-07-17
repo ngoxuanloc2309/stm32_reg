@@ -1,0 +1,32 @@
+#include "rcc.h"
+
+void RCC_EN_PORTA(){
+	RCC->APB2ENR.BITS.IOPAEN = 1;
+}
+
+void RCC_EN_PORTB(){
+	RCC->APB2ENR.BITS.IOPBEN = 1;
+}
+
+void RCC_EN_PORTC(){
+	RCC->APB2ENR.BITS.IOPCEN = 1;
+}
+
+void RCC_Cfg_6MHZ(void){
+	RCC->CR.BITS.HSEON=1;
+	while(RCC->CR.BITS.HSERDY != 1);
+	ACR->BITS.LATENCY = 0;
+	RCC->CFGR.BITS.PLLSRC = 1;
+	RCC->CFGR.BITS.PLLMUL = 1;
+	RCC->CR.BITS.PLLON = 1;
+	while(RCC->CR.BITS.PLLRDY != 1);
+
+	
+	RCC->CFGR.BITS.HPRE = 9;
+	RCC->CFGR.BITS.PPRE1 = 4;
+	RCC->CFGR.BITS.PPRE2 = 0;
+	
+		RCC->CFGR.BITS.SW = 2;
+	while(RCC->CFGR.BITS.SWS != 2);
+	
+}

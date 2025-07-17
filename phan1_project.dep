@@ -1,0 +1,20 @@
+Dependencies for Project 'phan1', Target 'project': (DO NOT MODIFY !)
+F (.\Src\main.c)(0x68787CE7)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Driver-I D:\stm32_reg\phan1\RTE-I D:\stm32_reg\phan1\RTE\Device\STM32F103C8-I "D:\KeilC v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\KeilC v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F10X_MD-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (D:\KeilC v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (D:\KeilC v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (.\Driver\rcc.h)(0x68787B98)
+F (.\Driver\rcc.c)(0x68787BFB)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Driver-I D:\stm32_reg\phan1\RTE-I D:\stm32_reg\phan1\RTE\Device\STM32F103C8-I "D:\KeilC v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\KeilC v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F10X_MD-o .\rcc.o --omf_browse .\rcc.crf --depend .\rcc.d)
+I (Driver\rcc.h)(0x68787B98)
+I (D:\KeilC v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+F (.\Driver\rcc.h)(0x68787B98)()
+F (RTE\Device\STM32F103C8\RTE_Device.h)(0x5FC05DFA)()
+F (RTE\Device\STM32F103C8\startup_stm32f10x_md.s)(0x6878613A)(--cpu Cortex-M3 -g --apcs=interwork -I D:\stm32_reg\phan1\RTE-I D:\stm32_reg\phan1\RTE\Device\STM32F103C8-I "D:\KeilC v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\KeilC v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"--pd "__UVISION_VERSION SETA 517" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list .\startup_stm32f10x_md.lst --xref -o .\startup_stm32f10x_md.o --depend .\startup_stm32f10x_md.d)
+F (RTE\Device\STM32F103C8\system_stm32f10x.c)(0x61AD876E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Driver-I D:\stm32_reg\phan1\RTE-I D:\stm32_reg\phan1\RTE\Device\STM32F103C8-I "D:\KeilC v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\KeilC v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F10X_MD-o .\system_stm32f10x.o --omf_browse .\system_stm32f10x.crf --depend .\system_stm32f10x.d)
+I (D:\KeilC v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
+I (D:\stm32_reg\phan1\RTE\RTE_Components.h)(0x6873B753)
+I (D:\KeilC v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (D:\KeilC v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (D:\KeilC v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (D:\KeilC v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (D:\KeilC v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (D:\KeilC v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD876E)
