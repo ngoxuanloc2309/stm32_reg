@@ -1,0 +1,16 @@
+--cpu Cortex-M3
+".\main.o"
+".\rcc.o"
+".\gpio.o"
+".\afio.o"
+".\exti.o"
+".\timer.o"
+".\adc.o"
+".\spi.o"
+".\usb.o"
+".\startup_stm32f10x_md.o"
+".\system_stm32f10x.o"
+--strict --scatter ".\phan1.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\phan1.map" -o .\phan1.axf
